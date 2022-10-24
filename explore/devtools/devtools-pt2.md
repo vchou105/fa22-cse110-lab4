@@ -1,0 +1,2 @@
+1. The bug was that the variables were interpreted as strings so adding `num1` and `num2` together resulted in a string concatenation instead of addition.
+2. I would fix it by converting `num1` and `num2` values to numbers so that `result` also has a number data type and calculate addition correctly.
